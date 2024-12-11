@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Login />
+    <Contact />
   </div>
 </template>
 
 <script>
-import Login from "./components/LoginPage.vue";
+import Contact from "./components/contact.vue";
 
 export default {
   components: {
-    Login,
+    Contact,
   },
 };
 </script>
